@@ -21,7 +21,7 @@ test('do header elements render on the page', () => {
 test('how many divs are rendered on the page', () => {
     const { queryAllByText } = render(<WorldCupTeams />);
 
-    const divs = queryAllByText(/country:/i);
+    const divs = queryAllByText(/country:/i); 
 
 });
 

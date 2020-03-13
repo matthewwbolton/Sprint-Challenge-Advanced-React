@@ -27,4 +27,4 @@ test('renders Player Name: on the component', () => {
     const playerName = findByText(/player name:/i);
     const playerCountry = findByText(/player country:/i);
     const numberOfSearches = findByText(/number of searches:/i);
-})
+}) 
