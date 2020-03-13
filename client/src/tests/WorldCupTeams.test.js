@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent, findByText, queryAllByText } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import WorldCupTeams from '../components/WorldCupTeams';
 
 test('does the WorldCupTeams component render on the page', () => {
@@ -23,4 +23,5 @@ test('how many divs are rendered on the page', () => {
 
     const divs = queryAllByText(/country:/i);
 
-})
+});
+
